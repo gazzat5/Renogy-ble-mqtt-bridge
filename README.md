@@ -1,5 +1,9 @@
 # Renogy-ble-mqtt-bridge
-A bridge for renogy charge controllers BT-1 (possibly also BT-2) Bluetooth modules, to bridge the data to mqtt via WiFi 
+A bridge for renogy charge controllers BT-1 (possibly also BT-2) Bluetooth modules, to bridge the data to mqtt via WiFi.
+
+It also hosts a webpage that lets you disable the bluetooth connection, and the ESP32's ip address is published and retained to MQTT also to make it easy to find on your network.
+
+It uses a hardware watchdog to ensure reliability also.
 
 # Prerequisites
 Hardware: 
