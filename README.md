@@ -16,5 +16,6 @@ Libraries:
 
 Software/server:
 - Mosquitto or other MQTT broker (with authentication, unless you remove that from the code)
+- Arduino IDE to configure, compile, and flash the code
 
 You'll need to configure your WiFi credentials and MQTT server address and credentials in the top of the sketch, and use a ble scanner app on your phone to find out the MAC address of the bluetooth module when in range, and add that to the top of the sketch too in the relevant fields.
